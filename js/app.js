@@ -13,26 +13,19 @@
 
 // EXCITED KITTEN
 
-// catSpeak = "Love me, pet me! HSSSSSS!";
-// catSpeak1 = "...human...why you taking pictures of me?...";
-// catSpeak2 = "...the catnip made me do it..."
-// catSpeak3 = "...why does the red dot always get away...";
-
-// for(let i = 1; i < 20; i++){
-//     if(i % 2 != 0){
-//         console.log(catSpeak);
-//     }
-//     Math.random();
-//     randomMath = Math.random();
+// let quotes =["...human...why you taking pictures of me?...", 
+// "...the catnip made me do it...", "...why does the red dot always get away..."];
+    
+// for (i = 0; i < 20; i++){
 //     if(i % 2 === 0){
-//         if(randomMath <= .33){
-//             console.log(catSpeak1);
-//         } else if(randomMath > .33 && randomMath <= .66){
-//             console.log(catSpeak2)
-//         } else if(randomMath >= .66){
-//             console.log(catSpeak3);
-//         }
+//         let randomQuote = Math.floor(Math.random() * quotes.length );
+//         console.log(quotes[randomQuote]);
+//     } else{
+//         console.log('Love me, pet me! HSSSSSS!');
 //     }
+// }
+
+// 
 
 // } 
 
@@ -79,4 +72,42 @@
 // console.log(ninjas[i].toUpperCase());
 // }
 
+// RETURN OF THE CLOSETS
 
+// let kristynsCloset = [
+//     "left shoe",
+//     "cowboy boots",
+//     "right sock",
+//     "GA hoodie",
+//     "green pants",
+//     "yellow knit hat",
+//     "marshmallow peeps"
+//   ];
+  
+//   // Thom's closet is more complicated. Check out this nested data structure!!
+//   const thomsCloset = [
+//     [
+//       // These are Thom's shirts
+//       "grey button-up",
+//       "dark grey button-up",
+//       "light blue button-up",
+//       "blue button-up",
+//     ],[
+//       // These are Thom's pants
+//       "grey jeans",
+//       "jeans",
+//       "PJs"
+//     ],[
+//       // Thom's accessories
+//       "wool mittens",
+//       "wool scarf",
+//       "raybans"
+//     ]
+//   ];
+
+//  kristynsCloset = kristynsShoe.splice([0])
+// console.log(kristynShoe);
+   
+// thomsCloset.push()
+
+// I had to stop here so I could get some sleep.  I'm not happy about that fact.
