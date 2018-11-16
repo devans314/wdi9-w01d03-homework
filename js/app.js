@@ -111,3 +111,14 @@
 // thomsCloset.push()
 
 // I had to stop here so I could get some sleep.  I'm not happy about that fact.
+
+// LAST PROBLEM
+
+
+let sum = 0;
+for(i = 0; i < 1000; i++){
+    if(i % 3 === 0 || i % 5 === 0){
+        sum += i;
+    }
+}
+console.log(sum);
